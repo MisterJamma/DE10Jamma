@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Jamma)(type Legacy)(uri ${KIPRJMOD}/Jamma.lib)(options "")(descr ""))
+  (lib (name DE10Jamma-rescue)(type Legacy)(uri ${KIPRJMOD}/DE10Jamma-rescue.lib)(options "")(descr ""))
+)

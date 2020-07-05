@@ -3605,4 +3605,41 @@ F 3 "~" H 5000 8800 50  0001 C CNN
 	1    5000 8800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x10_Male J11
+U 1 1 5F09C1E4
+P 13050 3050
+F 0 "J11" H 13150 3650 50  0000 R CNN
+F 1 "0.1\" kick" H 13350 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 13050 3050 50  0001 C CNN
+F 3 "~" H 13050 3050 50  0001 C CNN
+	1    13050 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13250 2650 13850 2650
+Connection ~ 13850 2650
+Wire Wire Line
+	13850 2750 13250 2750
+Connection ~ 13850 2750
+Wire Wire Line
+	13850 2850 13250 2850
+Connection ~ 13850 2850
+Wire Wire Line
+	13850 3050 13250 3050
+Connection ~ 13850 3050
+Wire Wire Line
+	13850 3150 13250 3150
+Connection ~ 13850 3150
+Wire Wire Line
+	13850 3250 13250 3250
+Connection ~ 13850 3250
+Wire Wire Line
+	13850 3350 13250 3350
+Connection ~ 13850 3350
+Wire Wire Line
+	13850 3450 13250 3450
+Connection ~ 13850 3450
+NoConn ~ 13250 2950
+NoConn ~ 13250 2550
 $EndSCHEMATC

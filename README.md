@@ -4,6 +4,8 @@ JAMMA/NeoGeo MVS audio, video & control IO for DE10-Nano.
 
 [https://github.com/MisterJamma/DE10Jamma](https://github.com/MisterJamma/DE10Jamma)
 
+![Render](https://raw.githubusercontent.com/MisterJamma/DE10Jamma/master/DE10Jamma.jpg)
+
 ## Description
 
 ### Overview
@@ -64,7 +66,7 @@ Qty | Reference(s)         | Value          | Part Number
 1   | FAN                  | 40mm fan 5/12v | 
 
 ###### Notes
-   1. Part numbers from [LSSC](https://lcsc.com/) are provided where possible below. Values for some components do not match the schematic, and have been adjusted to reduce the number of different components.
+   1. Part numbers from [LSSC](https://lcsc.com/) are provided where possible. Values for some components do not match the schematic, and have been adjusted to reduce the number of different components.
 
    1. J1, J2 and J6 should be inserted into PCB from above, using DE10-Nano to set correct depth. Solder carefully from above & trim to length. Pins should protrude approximately 0.25" from the PCB
 

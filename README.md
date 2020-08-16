@@ -4,25 +4,19 @@ JAMMA/NeoGeo MVS audio, video & control IO for DE10-Nano.
 
 [https://github.com/MisterJamma/DE10Jamma](https://github.com/MisterJamma/DE10Jamma)
 
-![Render](https://raw.githubusercontent.com/MisterJamma/DE10Jamma/master/DE10Jamma.jpg)
+![Imgur](https://i.imgur.com/aJJ6fK7.jpg)
 
 ## Description
 
 ### Overview
 DE10Jamma allows a DE10-Nano board to be connected directly to an arcade cabinet as simply as possible. USB and HDMI serial interfaces are not used, in order to remain as close as possible to the original arcade hardware and avoid unnecessary cost or complexity.
 
-Pull-down resistors on AUDIO_L and AUDIO_R pins *theoretically* allow this board to be detected appropriately & coexist with other MiSTer hardware using common rbf files for the cores, but the required DE10Jamma RTL is unlikely to be included in the main MiSTer codebase.
+Pull-down resistors on AUDIO_L and AUDIO_R pins allow this board to be detected and coexist with other MiSTer hardware using common rbf files for the cores. See [this commit](https://github.com/MisterJamma/Arcade-GnG_MiSTer/commit/6c7786a7f790a5277f337f6b245e99f6ca4c25ff).
 
 ##### Future Developments
-Possible future developments in RTL and software to more fully support DE10Jamma
+Future developments in RTL and software to more fully support DE10Jamma
 
-1. Add RTL and software to support `SELECT_UP` input: Input should be routed to software and trigger the OSD. OSD should allow player controls to select another core.
-1. MiSTer compatibility
-   1. Drop plans for full MiSTer/DE10Jamma compatibility, allowing HDMI logic to be stripped out of cores & freeing up logic resources. If DE10Jamma support is not included in main MiSTer fork, there's little point in compatibility as cores will need rebuilding anyway
-
-   or
-
-   1. Add AUDIO_L pull-down detection logic to allow MiSTer/DE10Jamma compatible cores to be produced
+1. Allow player controls to be used in the OSD.
 
 ### Inputs
 Inputs are [RC filtered](https://wiki.neogeodev.org/index.php?title=CRE401) to give EMI protection to the FPGA.

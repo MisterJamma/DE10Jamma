@@ -4,6 +4,8 @@ JAMMA/NeoGeo MVS audio, video & control IO for DE10-Nano.
 
 [https://github.com/MisterJamma/DE10Jamma](https://github.com/MisterJamma/DE10Jamma)
 
+Discussion thread: [https://www.atari-forum.com/viewtopic.php?f=120&t=38793](https://www.atari-forum.com/viewtopic.php?f=120&t=38793)
+
 ![Imgur](https://i.imgur.com/aJJ6fK7.jpg)
 
 ## Description
